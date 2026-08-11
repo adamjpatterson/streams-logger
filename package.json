@@ -4,15 +4,21 @@
   "description": "",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "workspaces": [
+    "examples/*",
+    "test"
+  ],
   "scripts": {
     "clean": "rm -rf ./dist/*",
     "build": "tsc --build .",
-    "clean:build": "npm run clean && npm run build",
     "watch": "tsc --watch",
-    "lint": "npx eslint .",
-    "format": "npx prettier --write .",
+    "clean:build": "npm run clean && npm run build",
+    "format": "prettier --write .",
     "format:lint": "npm run format && npm run lint",
-    "test": "npm update && npm run clean:build && npm update --prefix ./test && npm run clean:build --prefix ./test && npm start --prefix ./test"
+    "lint": "eslint src",
+    "lint:all": "eslint .",
+    "check": "npm run lint:all && npm test",
+    "test": "npm run clean:build && npm run test --workspace ./test"
   },
   "repository": {
     "type": "git",
