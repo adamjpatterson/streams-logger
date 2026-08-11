@@ -5,7 +5,18 @@
     "allowJs": true,
     "checkJs": true,
     "module": "node16",
+    "moduleResolution": "node16",
+    "baseUrl": ".",
+    "paths": {
+      "streams-logger": ["./src/index.ts"]
+    },
     "strict": true
   },
-  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx", "**/*.mjs", "**/*.cjs"]
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx", "**/*.mjs", "**/*.cjs"],
+  "exclude": [
+    "**/dist/**",
+    "**/node_modules/**",
+    "examples/use_streams_in_a_nodejs_project/**",
+    "examples/use_streams_in_a_nodejs_project_es6/**"
+  ]
 }
