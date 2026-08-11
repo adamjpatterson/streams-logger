@@ -16,6 +16,13 @@ export default defineConfig([
     },
   },
   {
+    ...tseslint.configs.disableTypeChecked,
+    files: [
+      "examples/use_streams_in_a_nodejs_project/**/*.js",
+      "examples/use_streams_in_a_nodejs_project_es6/**/*.js",
+    ],
+  },
+  {
     plugins: {
       "@stylistic": stylistic,
     },
