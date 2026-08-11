@@ -1,5 +1,5 @@
 {
-  "name": "use_streams_in_a_nodejs_project",
+  "name": "use_streams_in_a_nodejs_project_es6",
   "version": "1.0.0",
   "description": "",
   "main": "./src/index.js",
