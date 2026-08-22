@@ -5,7 +5,6 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "workspaces": [
-    "examples/*",
     "test"
   ],
   "scripts": {
@@ -22,14 +21,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/far-analytics/streams-logger.git"
+    "url": "git+https://github.com/adamjpatterson/streams-logger.git"
   },
   "author": "FAR",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/far-analytics/streams-logger/issues"
+    "url": "https://github.com/adamjpatterson/streams-logger/issues"
   },
-  "homepage": "https://github.com/far-analytics/streams-logger#readme",
+  "homepage": "https://github.com/adamjpatterson/streams-logger#readme",
   "engines": {
     "npm": ">=10.8.2",
     "node": ">=18.20.8"
