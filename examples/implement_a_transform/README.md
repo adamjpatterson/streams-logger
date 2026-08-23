@@ -64,7 +64,7 @@ log.warn("Hello, World!");
 #### Clone the _Streams_ repository.
 
 ```bash
-git clone https://github.com/far-analytics/streams-logger.git
+git clone https://github.com/adamjpatterson/streams-logger.git
 ```
 
 #### Change directory into the relevant example directory.

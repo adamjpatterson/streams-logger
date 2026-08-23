@@ -114,9 +114,9 @@ Output
                          ⮴level       ⮴line number
 ```
 
-- If you prefer a colorized log message, please see the [_Log a Colorized "Hello, World!" Message_](https://github.com/far-analytics/streams-logger/tree/main/examples/log_a_colorized_hello_world_message) example that demonstrates how to log a colorized message to the console using the external library [Chalk](https://www.npmjs.com/package/chalk).
+- If you prefer a colorized log message, please see the [_Log a Colorized "Hello, World!" Message_](https://github.com/adamjpatterson/streams-logger/tree/main/examples/log_a_colorized_hello_world_message) example that demonstrates how to log a colorized message to the console using the external library [Chalk](https://www.npmjs.com/package/chalk).
 
-- If you prefer a JSON format, please see the [_Log a JSON Object_](https://github.com/far-analytics/streams-logger/tree/main/examples/hello_world_json) example that demonstrates how to log a JSON object to the console.
+- If you prefer a JSON format, please see the [_Log a JSON Object_](https://github.com/adamjpatterson/streams-logger/tree/main/examples/hello_world_json) example that demonstrates how to log a JSON object to the console.
 
 ## Examples
 
@@ -124,55 +124,55 @@ Output
 
 - TypeScript
 
-Please see the [Usage](#usage) section above or the [_Hello, World!_](https://github.com/far-analytics/streams-logger/tree/main/examples/hello_world) example for a working implementation.
+Please see the [Usage](#usage) section above or the [_Hello, World!_](https://github.com/adamjpatterson/streams-logger/tree/main/examples/hello_world) example for a working implementation.
 
 ### _Use **Streams** in a Node.js project (without type safety)_
 
 - Node.js
 
-Please see the [_Use **Streams** in a Node.js Project_](https://github.com/far-analytics/streams-logger/tree/main/examples/use_streams_in_a_nodejs_project) example that demonstrates how to use _Streams_ in a Node.js project _without_ type checks.
+Please see the [_Use **Streams** in a Node.js Project_](https://github.com/adamjpatterson/streams-logger/tree/main/examples/use_streams_in_a_nodejs_project) example that demonstrates how to use _Streams_ in a Node.js project _without_ type checks.
 
 ### _Log a colorized "Hello, World!" message_
 
 - TypeScript
 
-Please see the [_Log a Colorized "Hello, World!" Message_](https://github.com/far-analytics/streams-logger/tree/main/examples/log_a_colorized_hello_world_message) example that demonstrates how to log to the console using the external library [Chalk](https://www.npmjs.com/package/chalk).
+Please see the [_Log a Colorized "Hello, World!" Message_](https://github.com/adamjpatterson/streams-logger/tree/main/examples/log_a_colorized_hello_world_message) example that demonstrates how to log to the console using the external library [Chalk](https://www.npmjs.com/package/chalk).
 
 ### _Log a JSON object_
 
 - TypeScript
 
-Please see the [_Log a JSON Object_](https://github.com/far-analytics/streams-logger/tree/main/examples/log_a_json_object) example that demonstrates how to log a JSON object to the console.
+Please see the [_Log a JSON Object_](https://github.com/adamjpatterson/streams-logger/tree/main/examples/log_a_json_object) example that demonstrates how to log a JSON object to the console.
 
 ### _Log a JavaScript object_
 
 - TypeScript
 
-Please see the [_Log a JavaScript Object_](https://github.com/far-analytics/streams-logger/tree/main/examples/log_a_javascript_object) example that demonstrates how to log an object to the console.
+Please see the [_Log a JavaScript Object_](https://github.com/adamjpatterson/streams-logger/tree/main/examples/log_a_javascript_object) example that demonstrates how to log an object to the console.
 
 ### _Log to a file and the console_
 
 - TypeScript
 
-Please see the [_Log to a File and the Console_](https://github.com/far-analytics/streams-logger/tree/main/examples/log_to_a_file_and_the_console) example that demonstrates how to log to a file and the console using different `Formatters`.
+Please see the [_Log to a File and the Console_](https://github.com/adamjpatterson/streams-logger/tree/main/examples/log_to_a_file_and_the_console) example that demonstrates how to log to a file and the console using different `Formatters`.
 
 ### _A network connected streams logging graph_
 
 - TypeScript
 
-Please see the [_A Network Connected **Streams** Logging Graph_](https://github.com/far-analytics/streams-logger/tree/main/examples/a_network_connected_logging_graph) example that demonstrates how to connect _Streams_ logging graphs over the network.
+Please see the [_A Network Connected **Streams** Logging Graph_](https://github.com/adamjpatterson/streams-logger/tree/main/examples/a_network_connected_logging_graph) example that demonstrates how to connect _Streams_ logging graphs over the network.
 
 ### _Implement a transform_
 
 - TypeScript
 
-Please see the [_Implement a Transform_](https://github.com/far-analytics/streams-logger/tree/main/examples/implement_a_transform) example that demonstrates how to implement a custom _Streams_ `Node`.
+Please see the [_Implement a Transform_](https://github.com/adamjpatterson/streams-logger/tree/main/examples/implement_a_transform) example that demonstrates how to implement a custom _Streams_ `Node`.
 
 ### _Consume a socket_
 
 - TypeScript
 
-Please see the [_Consume a Socket_](https://github.com/far-analytics/streams-logger/tree/main/examples/consume_a_socket) example that demonstrates how to wrap a `net.Socket` in a _Streams_ `Node`.
+Please see the [_Consume a Socket_](https://github.com/adamjpatterson/streams-logger/tree/main/examples/consume_a_socket) example that demonstrates how to wrap a `net.Socket` in a _Streams_ `Node`.
 
 ## Formatting
 
@@ -690,7 +690,7 @@ log.warn("Hello, World!");
 Hello, World!
 ```
 
-_Streams_ provides a few examples of [handlers](https://github.com/far-analytics/streams-logger/tree/main/src/handlers), which you can use for modeling your data transformation `Node`.
+_Streams_ provides a few examples of [handlers](https://github.com/adamjpatterson/streams-logger/tree/main/src/handlers), which you can use for modeling your data transformation `Node`.
 
 ### How to consume a Readable, Writable, Duplex, or Transform Node.js stream
 
@@ -804,7 +804,7 @@ Excerpted from [Semantic Versioning 2.0.0](https://semver.org/):
 #### Clone the repository.
 
 ```bash
-git clone https://github.com/far-analytics/streams-logger.git
+git clone https://github.com/adamjpatterson/streams-logger.git
 ```
 
 #### Change directory into the root of the repository.
@@ -827,6 +827,6 @@ npm test verbose=false
 
 ## Support
 
-For feature requests or issues, please open an [issue](https://github.com/far-analytics/streams-logger/issues) or contact one of the authors.
+For feature requests or issues, please open an [issue](https://github.com/adamjpatterson/streams-logger/issues) or contact one of the authors.
 
-- [Adam Patterson](https://github.com/adpatter)
+- [Adam Patterson](https://github.com/adamjpatterson)

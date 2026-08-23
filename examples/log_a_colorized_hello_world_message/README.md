@@ -85,7 +85,7 @@ greeter.shout(); // Greeter.shout invokes an ERROR message.
 #### Clone the _Streams_ repository.
 
 ```bash
-git clone https://github.com/far-analytics/streams-logger.git
+git clone https://github.com/adamjpatterson/streams-logger.git
 ```
 
 #### Change directory into the relevant example directory.
@@ -114,4 +114,4 @@ npm start
 
 ##### Output
 
-![Output](https://raw.githubusercontent.com/far-analytics/streams-logger/refs/heads/main/examples/log_a_colorized_hello_world_message/output.png)
+![Output](https://raw.githubusercontent.com/adamjpatterson/streams-logger/refs/heads/main/examples/log_a_colorized_hello_world_message/output.png)
