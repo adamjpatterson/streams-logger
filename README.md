@@ -816,7 +816,7 @@ cd streams-logger
 #### Install dependencies.
 
 ```bash
-npm install && npm update
+npm install
 ```
 
 #### Run the tests.
