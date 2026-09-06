@@ -97,7 +97,7 @@ cd streams-logger/examples/log_a_colorized_hello_world_message
 #### Install the example dependencies.
 
 ```bash
-npm install && npm update
+npm install
 ```
 
 #### Build the application.

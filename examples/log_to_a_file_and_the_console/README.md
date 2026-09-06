@@ -63,7 +63,7 @@ cd streams-logger/examples/log_to_a_file_and_the_console
 #### Install the example dependencies.
 
 ```bash
-npm install && npm update
+npm install
 ```
 
 #### Build the application.

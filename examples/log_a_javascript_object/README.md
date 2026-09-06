@@ -79,7 +79,7 @@ cd streams-logger/examples/log_a_javascript_object
 #### Install the example dependencies.
 
 ```bash
-npm install && npm update
+npm install
 ```
 
 #### Build the application.

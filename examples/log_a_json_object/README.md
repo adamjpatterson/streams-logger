@@ -80,7 +80,7 @@ cd streams-logger/examples/log_a_json_object
 #### Install the example dependencies.
 
 ```bash
-npm install && npm update
+npm install
 ```
 
 #### Build the application.

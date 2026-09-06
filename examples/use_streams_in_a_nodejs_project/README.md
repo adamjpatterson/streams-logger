@@ -53,7 +53,7 @@ cd streams-logger/examples/use_streams_in_a_nodejs_project
 #### Install the example dependencies.
 
 ```bash
-npm install && npm update
+npm install
 ```
 
 #### Run the application.

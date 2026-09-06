@@ -44,7 +44,7 @@ cd streams-logger/examples/consume_a_socket
 #### Install the example dependencies.
 
 ```bash
-npm install && npm update
+npm install
 ```
 
 #### Build the application.

@@ -103,7 +103,7 @@ cd streams-logger/examples/a_network_connected_logging_graph
 #### Install the example dependencies.
 
 ```bash
-npm install && npm update
+npm install
 ```
 
 #### Build the application.

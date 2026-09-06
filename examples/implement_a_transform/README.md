@@ -76,7 +76,7 @@ cd streams-logger/examples/implement_a_transform
 #### Install the example dependencies.
 
 ```bash
-npm install && npm update
+npm install
 ```
 
 #### Build the application.
